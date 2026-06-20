@@ -1,75 +1,57 @@
-# Case Study: Improving Retail Decision-Making Through Analytics and Forecasting
+Case Study: Walmart Retail Analytics
 
-## Background
 
-Retail businesses operate in highly dynamic environments where customer demand can change significantly due to seasonality, holidays, economic conditions, and local market factors.
 
-Management teams often face challenges such as inventory shortages during peak demand periods, excess stock during slower periods, and limited visibility into the factors driving store performance.
+Business Context
 
-To address these challenges, a comprehensive analytics and forecasting solution was developed using Walmart sales data.
+Retail chains like Walmart operate in highly competitive environments where demand forecasting and inventory control are critical.
 
----
+Small inefficiencies in forecasting can result in:
 
-## Business Challenge
+* Revenue loss
+* Excess inventory
+* Poor customer satisfaction
 
-The primary challenge was understanding how sales performance varied across stores and over time while creating a reliable method for forecasting future demand.
 
-The organization required answers to several important questions:
 
-* Which stores contribute most to revenue?
-* What factors influence sales performance?
-* How significant is the impact of holiday periods?
-* Can future demand be forecasted with confidence?
-* How can decision-makers access insights quickly and effectively?
+Problem Statement
 
----
+The organization lacked a reliable system to:
 
-## Analytical Approach
+* Forecast demand
+* Understand seasonal sales behavior
+* Optimize inventory allocation
 
-The project began by integrating sales, store, and external feature datasets into a unified analytical environment.
 
-After cleaning and preparing the data, exploratory analysis was conducted to identify performance trends, seasonal patterns, and operational insights.
 
-Advanced SQL analysis was then used to generate business metrics, rankings, and performance indicators.
+Approach
 
-A forecasting model was developed to estimate future demand and support planning decisions.
+* Cleaned and structured historical sales data
+* Performed time series analysis
+* Identified seasonal trends
+* Built forecasting models
+* Created dashboards for visualization
 
-Finally, statistical testing was applied to evaluate whether differences in sales performance between business segments were meaningful rather than random.
 
----
 
-## Findings
+Findings
 
-The analysis revealed several important business insights.
+* Strong seasonal influence on sales
+* Holiday periods show significant spikes
+* Certain stores consistently outperform others
+* Historical trends are reliable predictors of demand
 
-A relatively small number of stores generated a disproportionately large share of total revenue.
 
-Holiday periods consistently produced stronger sales performance than regular weeks, confirming the need for proactive inventory and staffing strategies.
 
-Seasonal demand patterns appeared throughout the historical data, making forecasting a valuable planning tool.
+Recommendations
 
-Economic indicators such as CPI and unemployment demonstrated measurable relationships with sales performance, suggesting that external market conditions should be considered during strategic planning.
+* Implement forecasting-based inventory systems
+* Adjust stock levels based on seasonal demand
+* Improve store-level performance tracking
+* Use predictive analytics for planning
 
----
 
-## Business Recommendations
 
-Based on the findings, several recommendations were developed:
+Conclusion
 
-1. Prioritize inventory allocation for high-performing stores during peak periods.
-
-2. Increase stock levels and operational capacity ahead of major holidays.
-
-3. Incorporate demand forecasts into inventory planning and replenishment processes.
-
-4. Monitor economic indicators as part of ongoing business performance evaluation.
-
-5. Use interactive dashboards to provide managers with real-time visibility into performance metrics and forecasts.
-
----
-
-## Outcome
-
-The project delivered a complete analytics framework capable of supporting both operational and strategic decision-making.
-
-By combining historical analysis, forecasting, statistical testing, and dashboard reporting, the solution demonstrates how data can be transformed into practical business insights that improve planning, resource allocation, and overall decision quality.
+This project demonstrates how retail analytics and forecasting can improve operational efficiency and decision-making in large-scale retail environments.
